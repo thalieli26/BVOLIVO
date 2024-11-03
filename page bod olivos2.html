@@ -22,17 +22,5 @@
 </head>
 <body>
     <iframe src="https://tally.so/embed/wb4VWE?hideTitle=1&transparentBackground=1&dynamicHeight=1" title="Formulario Tally"></iframe>
-
-    <script>
-        // Redirigir después de enviar el formulario
-        window.addEventListener('message', function(event) {
-            if (event.origin === 'https://tally.so') {
-                if (event.data === 'success') {
-                    window.location.href = 'https://www.lovelydigital.site/thanks'; // URL de la página de agradecimiento
-                }
-            }
-        });
-    </script>
 </body>
 </html>
-
